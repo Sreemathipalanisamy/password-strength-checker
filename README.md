@@ -7,8 +7,6 @@ Password Strength Checker is an application that evaluates the strength of user-
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
-- [License](#license)
-- [Contact](#contact)
 
 ## Description
 Password Strength Checker is designed to help users assess the security of their passwords. The application leverages machine learning algorithms to analyze password characteristics—such as length, uppercase letters, digits, and special characters—and classifies them as **Weak, Medium, or Strong**.
