@@ -1,64 +1,50 @@
-#**PASSWORD STRENGTH CHECKER**
+# Password Strength Checker
 
 Password Strength Checker is an application that evaluates the strength of user-entered passwords using machine learning techniques.
 
-**Table of Contents**
+## Table of Contents
+- [Description](#description)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contact](#contact)
 
-Description
+## Description
+Password Strength Checker is designed to help users assess the security of their passwords. The application leverages machine learning algorithms to analyze password characteristics—such as length, uppercase letters, digits, and special characters—and classifies them as **Weak, Medium, or Strong**.
 
-Features
+## Features
+- 🔍 **Analyzes password strength** using machine learning
+- 🛠 **Extracts features** like length, character types, and special symbols
+- 🌲 **Utilizes a Random Forest Classifier** for classification
+- ⚡ **Provides real-time feedback** on password security
 
-Installation
+## Installation
+To run the Password Strength Checker locally, follow these steps:
 
-Usage
-
-**Description**
-
-Password Strength Analyzer is designed to help users assess the security of their passwords. The application uses machine learning algorithms to analyze password characteristics, such as length, uppercase letters, digits, and special characters, and classifies them as Weak, Medium, or Strong.
-
-**Features**
-
-Analyzes password strength using machine learning
-
-Extracts features like length, character types, and special symbols
-
-Uses a Random Forest Classifier for classification
-
-Provides real-time feedback on password strength
-
-**Installation**
-
-To run the Password Strength Analyzer locally, follow these steps:
-
-Clone the repository:
-
-bash
-Copy
-Edit
+### **1. Clone the repository:**
+```sh
 git clone https://github.com/your-username/password-analyzer.git
-Navigate to the project directory:
+```
 
-bash
-Copy
-Edit
+### **2. Navigate to the project directory:**
+```sh
 cd password-analyzer
-Install dependencies:
+```
 
-bash
-Copy
-Edit
+### **3. Install dependencies:**
+```sh
 pip install -r requirements.txt
-Run the script:
+```
 
-bash
-Copy
-Edit
+### **4. Run the script:**
+```sh
 python password_strength.py
-Usage
+```
+
+## Usage
 Once the application is running:
 
-Enter a password when prompted.
-
-The system will analyze its strength based on predefined rules.
-
-The output will indicate whether the password is Weak, Medium, or Strong.
+1. 🔑 **Enter a password** when prompted.
+2. 📊 **The system will analyze** its strength based on predefined rules.
+3. ✅ **The output will indicate** whether the password is **Weak, Medium, or Strong**.
